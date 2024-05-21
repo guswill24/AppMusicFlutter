@@ -132,7 +132,7 @@ class _CreditosPageState extends State<CreditosPage> {
                       height: 196,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('assets/images/gustavo.png'),
+                          image: AssetImage('assets/images/duolipa.png'),
                           fit: BoxFit.fitWidth,
                         ),
                         borderRadius:
@@ -158,7 +158,7 @@ class _CreditosPageState extends State<CreditosPage> {
                         ),
                         SizedBox(height: 20.0),
                         Text(
-                          'Gustavo Sánchez Rodríguez\nIngeniero de sistemas\n\n\nAgradecer a Codigo Facilito por el excelente equipo de profesores que nos acompañaron en todo el desarrollo del Bootcamp y al personal de soporte que estuvieron atentos a que el evento se desarrollara de la mejor forma.',
+                          'Créditos del Aplicativo.',
                           textAlign: TextAlign.justify,
                           style: TextStyle(
                             color: Color.fromRGBO(0, 0, 0, 1),
