@@ -1,6 +1,6 @@
-# Entrega Proyecto Final
+# Proyecto Flutter con Provider, SQLite y Diseño en Figma
 
-## Estudiante: Gustavo Willyn Sánchez Rodríguez
+## Autor: Gustavo Sánchez Rodríguez
 
 ### Descripción (Elegir una app)
 
@@ -26,11 +26,10 @@ La información se consulta desde una base de datos trabajada en SQLite, la cual
 
 ### Descripción (Almacenamiento)
 
-Para el almacenamiento, opté por utilizar la base de datos SQLite y diseñé una única tabla para administrar las canciones. Debido a restricciones de tiempo, no implementé una tabla adicional para gestionar la autenticación de usuarios mediante nombre de usuario y contraseña. Originalmente, tenía la intención de abordar esta funcionalidad utilizando Firebase, aprovechando sus servicios para un acceso seguro. Sin embargo, dado el cronograma ajustado, he decidido posponer esta parte y considerar la posibilidad de abordarla en el futuro, tal vez adquiriendo el bootcamp avanzado de Flutter que ofrece codigofacilito.
+Para el almacenamiento, se utiliza la base de datos SQLite con una única tabla para administrar las canciones. 
+Se incorporo el uso de Provider para gestionar el estado de la aplicación. Con el estado global gestionado por Provider, el código se vuelve más legible y accesible desde cualquier parte de la aplicación.
+Se incluye un botón con un icono de base de datos para observar cómo, al eliminar todas las canciones y actualizar la información, esta se refresca en todos los widgets. 
 
-También incorporé el uso de Provider para gestionar el estado de la aplicación. Inicialmente, todo estaba implementado en StatefulWidgets y no tenía una comprensión clara de esta área. Sin embargo, gracias a la explicación de codigofacilito y después de dedicar varias horas a ajustar la lógica de todo el proceso, logré encapsular esta funcionalidad de manera efectiva. Ahora, con el estado global gestionado por Provider, el código se vuelve más legible y accesible desde cualquier parte de la aplicación.
-
-Decidí incluir un botón con un icono de base de datos para observar cómo, al eliminar todas las canciones y actualizar la información, esta se refresca en todos los widgets. Este proceso resultó muy interesante de observar y brindó una comprensión más profunda del flujo de datos en la aplicación.
 
 ### Interfaces del aplicativo
 
